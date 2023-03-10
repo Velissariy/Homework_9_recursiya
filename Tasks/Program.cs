@@ -78,11 +78,11 @@ void Task_66()
 void Task_68()
 {
 
-System.Console.WriteLine(Akkerman(PutNumber("Введите m: "),PutNumber("Введите n: ")));
+//System.Console.WriteLine(Akkerman(PutNumber("Введите m: "),PutNumber("Введите n: ")));
 
-// int functionAkkerman = Akkerman(PutNumber("Введите m: "),PutNumber("Введите n: "));
+int result = Akkerman(PutNumber("Введите m: "),PutNumber("Введите n: "));
 
-// Console.Write($"Функция Аккермана = {functionAkkerman} ");
+Console.Write($"A(m,n) = {result} ");
 
 }
 
